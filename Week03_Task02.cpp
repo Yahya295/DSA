@@ -37,6 +37,7 @@ public:
 	~myStack()
 	{
 		delete[] arr;
+		delete[] minArr;
 	}
 	void push(T value)
 	{
